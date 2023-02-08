@@ -1,0 +1,133 @@
+
+
+============================== 2023-02-07 10:39:30.542587 | e3f1d956-d0be-4705-97bf-6cc63abe2e11 ==============================
+[0m10:39:30.542587 [info ] [MainThread]: Running with dbt=1.4.1
+[0m10:39:30.543583 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\LENOVO\\.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'project_name': 'my_dbt', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m10:39:30.543583 [debug] [MainThread]: Tracking: tracking
+[0m10:39:30.543583 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002648D063940>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002648D063A60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002648D09C430>]}
+[0m10:39:30.545703 [debug] [MainThread]: Starter project path: C:\purpleslate\DBTlearnings\lib\site-packages\dbt\include\starter_project
+[0m10:40:17.708396 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002648D084CD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002648D084670>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002648D084D90>]}
+[0m10:40:17.709497 [debug] [MainThread]: Flushing usage events
+[0m10:40:18.682078 [error] [MainThread]: Encountered an error:
+
+[0m10:40:18.686601 [error] [MainThread]: Traceback (most recent call last):
+  File "C:\purpleslate\DBTlearnings\lib\site-packages\dbt\main.py", line 135, in main
+    results, succeeded = handle_and_check(args)
+  File "C:\purpleslate\DBTlearnings\lib\site-packages\dbt\main.py", line 198, in handle_and_check
+    task, res = run_from_args(parsed)
+  File "C:\purpleslate\DBTlearnings\lib\site-packages\dbt\main.py", line 245, in run_from_args
+    results = task.run()
+  File "C:\purpleslate\DBTlearnings\lib\site-packages\dbt\task\init.py", line 302, in run
+    if not self.check_if_can_write_profile(profile_name=project_name):
+  File "C:\purpleslate\DBTlearnings\lib\site-packages\dbt\task\init.py", line 203, in check_if_can_write_profile
+    response = click.confirm(
+  File "C:\purpleslate\DBTlearnings\lib\site-packages\click\termui.py", line 237, in confirm
+    raise Abort() from None
+click.exceptions.Abort
+
+
+
+============================== 2023-02-07 10:40:24.608102 | 075be86f-7eec-4f82-b85f-a472ced06e54 ==============================
+[0m10:40:24.608102 [info ] [MainThread]: Running with dbt=1.4.1
+[0m10:40:24.609099 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\LENOVO\\.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'project_name': 'my_dbt', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m10:40:24.609099 [debug] [MainThread]: Tracking: tracking
+[0m10:40:24.610114 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018788D1C3A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018788CE4D60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018788CE4910>]}
+[0m10:40:24.611106 [info ] [MainThread]: A project called my_dbt already exists here.
+[0m10:40:24.612080 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018788D1C3A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018788CE4BB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018788CE4A00>]}
+[0m10:40:24.612080 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2023-02-07 10:41:17.825824 | fc705995-2ce2-4ac0-a924-616c046bd332 ==============================
+[0m10:41:17.825824 [info ] [MainThread]: Running with dbt=1.4.1
+[0m10:41:17.827817 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\LENOVO\\.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'project_name': 'my_dbt', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m10:41:17.827817 [debug] [MainThread]: Tracking: tracking
+[0m10:41:17.827817 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000203A65CC250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000203A6594D00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000203A65948B0>]}
+[0m10:41:17.828824 [debug] [MainThread]: Starter project path: C:\purpleslate\DBTlearnings\lib\site-packages\dbt\include\starter_project
+[0m10:42:10.498493 [info ] [MainThread]: Profile my_dbt written to C:\Users\LENOVO\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m10:42:10.498493 [info ] [MainThread]: 
+Your new dbt project "my_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m10:42:10.499501 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000203A65CC0D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000203A6594880>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000203A6594D00>]}
+[0m10:42:10.500442 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2023-02-07 10:42:18.092335 | 136e2293-7b2a-498a-b6a7-beb35194c069 ==============================
+[0m10:42:18.092335 [info ] [MainThread]: Running with dbt=1.4.1
+[0m10:42:18.094329 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\LENOVO\\.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'config_dir': False, 'which': 'debug', 'indirect_selection': 'eager'}
+[0m10:42:18.094329 [debug] [MainThread]: Tracking: tracking
+[0m10:42:18.095324 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001891EDDC790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001891EDDC910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001891EDDC2B0>]}
+[0m10:42:18.663463 [debug] [MainThread]: Executing "git --help"
+[0m10:42:18.692251 [debug] [MainThread]: STDOUT: "b"usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m10:42:18.693247 [debug] [MainThread]: STDERR: "b''"
+[0m10:42:18.699525 [debug] [MainThread]: Acquiring new databricks connection 'debug'
+[0m10:42:18.700521 [debug] [MainThread]: Using databricks connection "debug"
+[0m10:42:18.700521 [debug] [MainThread]: On debug: select 1 as id
+[0m10:42:18.700521 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m10:42:24.135815 [debug] [MainThread]: SQL status: OK in 5.44 seconds
+[0m10:42:24.136787 [debug] [MainThread]: On debug: Close
+[0m10:42:24.700235 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001892F690C40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001892F6B4DF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001892F6B4760>]}
+[0m10:42:24.701336 [debug] [MainThread]: Flushing usage events
+[0m10:42:25.572161 [debug] [MainThread]: Connection 'debug' was properly closed.
+
+
+============================== 2023-02-07 10:42:43.824351 | f47f8d12-2fac-4d1c-b0de-261f39a5139a ==============================
+[0m10:42:43.824351 [info ] [MainThread]: Running with dbt=1.4.1
+[0m10:42:43.825344 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\LENOVO\\.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'config_dir': False, 'which': 'debug', 'indirect_selection': 'eager'}
+[0m10:42:43.825344 [debug] [MainThread]: Tracking: tracking
+[0m10:42:43.826344 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002065B275880>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002065B275B50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002065B2AD490>]}
+[0m10:42:44.389910 [debug] [MainThread]: Executing "git --help"
+[0m10:42:44.418816 [debug] [MainThread]: STDOUT: "b"usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m10:42:44.418816 [debug] [MainThread]: STDERR: "b''"
+[0m10:42:44.424552 [debug] [MainThread]: Acquiring new databricks connection 'debug'
+[0m10:42:44.425549 [debug] [MainThread]: Using databricks connection "debug"
+[0m10:42:44.425549 [debug] [MainThread]: On debug: select 1 as id
+[0m10:42:44.425549 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m10:42:47.479442 [debug] [MainThread]: SQL status: OK in 3.05 seconds
+[0m10:42:47.480435 [debug] [MainThread]: On debug: Close
+[0m10:42:47.643498 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002066BB28B80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002066BB33DF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002066BB33760>]}
+[0m10:42:47.643498 [debug] [MainThread]: Flushing usage events
+[0m10:42:48.713040 [debug] [MainThread]: Connection 'debug' was properly closed.
+
+
+============================== 2023-02-07 10:44:00.934109 | 7e863890-c665-408b-bc11-418dab9a1aab ==============================
+[0m10:44:00.934109 [info ] [MainThread]: Running with dbt=1.4.1
+[0m10:44:00.935106 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\LENOVO\\.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'config_dir': True, 'which': 'debug', 'indirect_selection': 'eager'}
+[0m10:44:00.935106 [debug] [MainThread]: Tracking: tracking
+[0m10:44:00.936093 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002861BC33AF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002861BCAC250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002861BCAC2B0>]}
+[0m10:44:00.936093 [info ] [MainThread]: To view your profiles.yml file, run:
+
+start C:\Users\LENOVO\.dbt
+[0m10:44:00.937089 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002861BC33AF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002861BCAC2B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002861BCAC310>]}
+[0m10:44:00.937089 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2023-02-07 10:44:19.099574 | 99857868-4bff-4572-8886-4bdc1688863a ==============================
+[0m10:44:19.099574 [info ] [MainThread]: Running with dbt=1.4.1
+[0m10:44:19.101562 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\LENOVO\\.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'config_dir': False, 'which': 'debug', 'indirect_selection': 'eager'}
+[0m10:44:19.101562 [debug] [MainThread]: Tracking: tracking
+[0m10:44:19.102557 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A873364850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A873364CD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A87339C520>]}
+[0m10:44:19.645755 [debug] [MainThread]: Executing "git --help"
+[0m10:44:19.676881 [debug] [MainThread]: STDOUT: "b"usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m10:44:19.676881 [debug] [MainThread]: STDERR: "b''"
+[0m10:44:19.684593 [debug] [MainThread]: Acquiring new databricks connection 'debug'
+[0m10:44:19.684593 [debug] [MainThread]: Using databricks connection "debug"
+[0m10:44:19.685588 [debug] [MainThread]: On debug: select 1 as id
+[0m10:44:19.685588 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m10:44:20.408552 [debug] [MainThread]: SQL status: OK in 0.72 seconds
+[0m10:44:20.409524 [debug] [MainThread]: On debug: Close
+[0m10:44:20.763454 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A802E76250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A802E73D90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A802E73700>]}
+[0m10:44:20.763454 [debug] [MainThread]: Flushing usage events
+[0m10:44:21.890336 [debug] [MainThread]: Connection 'debug' was properly closed.
